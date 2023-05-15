@@ -9,7 +9,7 @@ Workflow for generating labeled training data for identifying ice sheet surface 
 
 2. Run Kang Yang's supraglacial river detection code on the original WorldView images.
 	> Download original code here: https://github.com/njuRS
-	> Note that you will need to install DipLib to run this code, which can be found here: https://diplib.org/. The code as 
+	Note that you will need to install DipLib to run this code, which can be found here: https://diplib.org/. The code as 
 	  original written is only compatible with the old version of DipLib (2.9 or earlier, I believe). I edited the code to 
 	  be compatible with the latest version of DipLib, that code is include in the \RiverDetectionCode directory. 
 	> Edit \RiverDetectionCode\run_batch_river_detection.m so that it know where to find DipLib and where to find the WorldView images
